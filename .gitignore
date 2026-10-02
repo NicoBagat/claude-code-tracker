@@ -1,0 +1,37 @@
+# Claude Code local context — never commit
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Environment
+.env
+.env.local
+secrets.*
+
+# Python (companion daemon)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
